@@ -31,7 +31,7 @@
         "../node_modules/bootstrap/dist/js/bootstrap.min.js",
         "../node_modules/lightgallery.js/dist/js/lightgallery.js",
         "../node_modules/lg-fullscreen/dist/lg-fullscreen.min.js",
-        "../node_modules/lg-thumbnail/dist/lg-thumbnail.min.js"
+        "../node_modules/lg-thumbnail.js/dist/lg-thumbnail.min.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

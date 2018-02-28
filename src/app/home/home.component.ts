@@ -67,7 +67,7 @@ export class HomeComponent implements OnInit {
             $('body').toggleClass('open');
         });
 
-        var $loop = $('.loop')
+        var $loop = $('.loop');
         if ($loop.length > 0) {
             $loop.owlCarousel({
                 items: 3,
@@ -93,33 +93,7 @@ export class HomeComponent implements OnInit {
         }
 
 
-        //$("a[rel^='prettyPhoto']").prettyPhoto();
-        //$(".usp").owlCarousel({
-        //    items:4,
-        //    center: true,
-        //    loop: true,
-        //    nav: false,
-        //    dots: false,
-        //    autoplay: true,
-        //    autoplayTimeout: 2000,
-        //    margin: 0,
-        //    responsive: {
-        //        300: {
-        //            items: 3,
-        //            margin: 0
-        //        },
-        //        768: {
-        //            items: 4,
-        //            margin: 0
-        //        },
-        //        991: {
-        //            items: 4
-        //        },
-        //        1200: {
-        //            items: 5
-        //        }
-        //    }
-        //});
+      
 
 
 
@@ -138,30 +112,50 @@ export class HomeComponent implements OnInit {
                 }
 
             }
-        })
+        });
 
-        lightGallery(document.getElementById('lightgallery'));
+        
         $(".owl-slider").owlCarousel({
-            autoPlay: 3000, //Set AutoPlay to 3 seconds
+            autoPlay: 3000, 
             items: 4,
             itemsDesktop: [1199, 3],
             itemsDesktopSmall: [979, 3]
         });
+        $('ul#main-ibox li:nth-child(2)').addClass('active9');
 
-
-        $('.video').click(function () { this.paused ? this.play() : this.pause(); });
-
-        $('.cover_boxes ul li,.cover_boxes ul li .box a.thumb').hover(function () {
-            var x = $(this).hasClass("act");
-
-            if (x == true) {
-                $(this).removeClass("act");
-            } else {
-                $(this).toggleClass("act");
-            }
+        $('ul#main-ibox li').mouseover(function() {
+        $('li.active9').removeClass('active9'), $('li:hover').addClass('active9');
+        }).mouseout(function() {
+        $('li.active9').removeClass('active9'), $('ul#main-ibox li:nth-child(2)').addClass('active9');
         });
 
 
+        $(function () {
+		
+            var filterList = {
+            
+                init: function () {
+                
+                    // MixItUp plugin
+                    // http://mixitup.io
+                    $('#portfoliolist').mixItUp({
+                        selectors: {
+                        target: '.portfolio',
+                        filter: '.filter'	
+                    },
+                    load: {
+                      filter: '.app' // show app tab on first load
+                    }     
+                    });								
+                
+                }
+        
+            };
+            
+            // Run the show!
+            filterList.init();
+            
+        });	
     }
 
 
