@@ -28,10 +28,15 @@
       "scripts": [
         "../node_modules/jquery/dist/jquery.min.js",
         "../node_modules/owl.carousel/dist/owl.carousel.js",
-        "../node_modules/bootstrap/dist/js/bootstrap.min.js",
-        "../node_modules/lightgallery.js/dist/js/lightgallery.js",
+        "../node_modules/lightgallery/dist/js/lightgallery.js",
+        "../node_modules/lg-pager/dist/lg-pager.js",
+        "../node_modules/lg-autoplay/dist/lg-autoplay.js",
+        "../node_modules/lg-share/dist/lg-share.js",
         "../node_modules/lg-fullscreen/dist/lg-fullscreen.min.js",
-        "../node_modules/lg-thumbnail.js/dist/lg-thumbnail.min.js"
+        "../node_modules/lg-zoom/dist/lg-zoom.js",
+        "../node_modules/lg-hash/dist/lg-hash.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js"
+        
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

@@ -1,8 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import "lightGallery";
 declare var jquery: any;
 declare var $: any;
 declare var lightGallery: any;
 declare var appear: any;
+
 
 @Component({
     selector: 'app-home',
@@ -130,32 +132,12 @@ export class HomeComponent implements OnInit {
         });
 
 
-        $(function () {
-		
-            var filterList = {
-            
-                init: function () {
-                
-                    // MixItUp plugin
-                    // http://mixitup.io
-                    $('#portfoliolist').mixItUp({
-                        selectors: {
-                        target: '.portfolio',
-                        filter: '.filter'	
-                    },
-                    load: {
-                      filter: '.app' // show app tab on first load
-                    }     
-                    });								
-                
-                }
-        
-            };
-            
-            // Run the show!
-            filterList.init();
-            
-        });	
+        $(document).ready(function() {
+            $("#lightgallery").lightGallery({
+             
+                pager:true
+            });
+          });
     }
 
 
