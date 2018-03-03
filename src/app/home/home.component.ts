@@ -137,7 +137,12 @@ export class HomeComponent implements OnInit {
              
                 pager:true
             });
-          });
+        });
+
+
+
+
+
     }
 
 
