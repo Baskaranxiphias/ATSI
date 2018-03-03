@@ -742,7 +742,7 @@
 
     #benefits .intro-header-title {
         font-family: 'Roboto-thin',sans-serif;
-        font-weight: 300;
+        font-weight: 600;
         font-size: 3rem;
         letter-spacing: 0;
         margin: 0px;
@@ -820,8 +820,9 @@
 
 #benefits .card p {
     font-size: 1.5rem;
-    font-family: 'AvenirLTStd-Book';
+    font-family: 'Roboto-light',sans-serif;
     padding-top: 2.5rem;
+    font-weight: 600;
 }
 
 
@@ -1335,56 +1336,56 @@
 .education {
     --bg-color: #ffd861;
     --bg-color-light: #ffeeba;
-    --text-color-hover: #4C5656;
+    --text-color-hover: #000;
     --box-shadow-color: rgba(255, 215, 97, 0.48);
 }
 
 .credentialing {
     --bg-color: #B8F9D3;
     --bg-color-light: #e2fced;
-    --text-color-hover: #4C5656;
+    --text-color-hover: #000;
     --box-shadow-color: rgba(184, 249, 211, 0.48);
 }
 
 .wallet {
     --bg-color: #CEB2FC;
     --bg-color-light: #F0E7FF;
-    --text-color-hover: #fff;
+    --text-color-hover: #000;
     --box-shadow-color: rgba(206, 178, 252, 0.48);
 }
 
 .human-resources {
     --bg-color: #DCE9FF;
     --bg-color-light: #f1f7ff;
-    --text-color-hover: #4C5656;
+    --text-color-hover: #000;
     --box-shadow-color: rgba(220, 233, 255, 0.48);
 }
 
 .web {
     --bg-color: #90CAF9;
     --bg-color-light: #f1f7ff;
-    --text-color-hover: #fbffff;
+    --text-color-hover: #000;
     --box-shadow-color: rgba(220, 233, 255, 0.48);
 }
 
 .smart-card {
     --bg-color: #80DEEA;
     --bg-color-light: #f1f7ff;
-    --text-color-hover: #4C5656;
+    --text-color-hover: #000;
     --box-shadow-color: rgba(220, 233, 255, 0.48);
 }
 
 .communication {
     --bg-color: #FF8A65;
     --bg-color-light: #f1f7ff;
-    --text-color-hover: #4C5656;
+    --text-color-hover: #000;
     --box-shadow-color: rgba(220, 233, 255, 0.48);
 }
 
 .report {
     --bg-color: #D4E157;
     --bg-color-light: #f1f7ff;
-    --text-color-hover: #4C5656;
+    --text-color-hover: #000;
     --box-shadow-color: rgba(220, 233, 255, 0.48);
 }
 
@@ -1460,7 +1461,7 @@
 
     #benefits .card p {
         font-size: 17px;
-        color: #4C5656;
+        color: #000;
         margin-top: 30px;
         z-index: 1000;
         transition: color 0.3s ease-out;
@@ -1705,7 +1706,7 @@ Overview
 
     #screenshots .intro-header-title {
         font-family: 'Roboto-thin',sans-serif;
-        font-weight: 300;
+        font-weight: 600;
         font-size: 3rem;
         color: #fff;
         letter-spacing: 0;
@@ -2139,8 +2140,8 @@ figure.effect-apollo {
 
 
 .sec-testimonial .intro-txt {
-    font-family: 'Roboto-Light',sans-serif;
-    font-weight: 300;
+    font-family: 'Roboto-light',sans-serif;
+    font-weight: 600;
     font-size: 1.8rem;
     color: #1b1b1b !important;
 }
@@ -2208,7 +2209,6 @@ figure.effect-apollo {
         }
 
         .sec-testimonial .media .media-body h6 {
-            text-transform: uppercase;
             margin-top: 13px;
             font-size: 14px;
             line-height: 30px;
@@ -2307,11 +2307,13 @@ figure.effect-apollo {
 }
 
 #testimonial .intro-header-title {
-    font-family: 'Roboto-Thin',sans-serif;
+    font-family: 'Roboto-thin',sans-serif;
     font-size: 3rem;
     margin: 0px;
     padding-bottom: 1rem;
     padding-top: 2rem;
+    color: #000;
+    font-weight: 600;
 }
 
 #owl-testimonial {
@@ -2334,9 +2336,9 @@ figure.effect-apollo {
 
 #testimonial .intro-txt {
     font-family: 'Roboto-Light',sans-serif;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 1.8rem;
-    color: #1b1b1b;
+    color: #000;
 }
 
 #testimonial {
@@ -2368,6 +2370,7 @@ figure.effect-apollo {
         margin: 0px;
         padding-bottom: 1rem;
         padding-top: 2rem;
+        font-weight: 600;
     }
 
 .our-usp .intro-header-title {
@@ -3364,9 +3367,10 @@ figure.effect-apollo {
 
     #details-sw .intro-header-title {
         font-family: 'Roboto-thin',sans-serif;
-        font-weight: 300;
+        font-weight: 600;
         font-size: 3rem;
         margin-bottom: 0;
+        color: #000;
     }
 
     #details-sw .subtxt {
@@ -3532,7 +3536,7 @@ a.btn-theme, .btn-theme {
         color: #000;
         font-family: 'Roboto-Thin',sans-serif;
         font-size: 3.7rem;
-        font-weight: 300;
+        font-weight: 600;
         line-height: 42px;
     }
 
@@ -3666,7 +3670,9 @@ ul#main-ibox {
 }
 
     ul#main-ibox h5 {
-        font-weight: bold;
+        font-family: 'Roboto-Light',sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
         text-align: center;
         margin-bottom: 8px;
         padding: 0 16px;
@@ -3697,6 +3703,9 @@ ul#main-ibox {
     }
 
     ul#main-ibox li p {
+        font-family: 'Roboto-Light',sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
         padding: 0 20px;
         max-height: 100%;
         overflow: hidden;
@@ -3996,7 +4005,7 @@ ul#main-ibox {
                 }
 
             .demo-gallery > ul > li a:hover .demo-gallery-poster {
-                background-color: rgba(0, 0, 0, 0.5);
+                background-color: rgba(33, 150, 243, 0.58);
             }
 
 .demo-gallery .justified-gallery > a > img {
@@ -4062,13 +4071,13 @@ ul#main-ibox {
 
 
 #usp-hardware {
-    background-color: rgba(214, 214, 214, 0.36);
+    background-color: rgba(214, 214, 214, 0.62);
     padding-bottom: 4rem;
 }
 
     #usp-hardware .intro-header-title {
         font-family: 'Roboto-thin',sans-serif;
-        font-weight: 300;
+        font-weight: 600;
         font-size: 3rem;
         margin-bottom: 2rem;
         margin-top: 4rem;
@@ -4077,7 +4086,7 @@ ul#main-ibox {
 
     #usp-hardware .intro-txt {
         font-family: 'Roboto-Light',sans-serif;
-        font-weight: 300;
+        font-weight: 600;
         font-size: 1.8rem;
         padding-bottom: 3rem;
         color: #1b1b1b;
@@ -4103,7 +4112,6 @@ ul#main-ibox {
         -moz-border-radius: 0;
         border-radius: 0;
         border: none;
-        width: 560px;
     }
 
 
@@ -4186,5 +4194,3 @@ ul#main-ibox {
                 left: 55px;
                 top: 15px;
             }
-
-
